@@ -1,0 +1,4 @@
+source;share/multibot_ros2_interface/local_setup.bash
+source;share/multibot_ros2_interface/local_setup.dsv
+source;share/multibot_ros2_interface/local_setup.sh
+source;share/multibot_ros2_interface/local_setup.zsh

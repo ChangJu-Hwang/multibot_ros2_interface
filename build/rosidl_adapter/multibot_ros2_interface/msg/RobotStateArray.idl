@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multibot_ros2_interface/msg/RobotStateArray.msg
+// generated code does not contain a copyright notice
+
+#include "multibot_ros2_interface/msg/RobotState.idl"
+
+module multibot_ros2_interface {
+  module msg {
+    struct RobotStateArray {
+      sequence<multibot_ros2_interface::msg::RobotState> robot_states;
+    };
+  };
+};

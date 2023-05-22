@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/changju/multibot_ws/install/multibot_server/include/**",
+                "/home/changju/ws/install/turtlebot3_gazebo/include/**",
+                "/home/changju/ws/install/turtlebot3_fake_node/include/**",
+                "/home/changju/ws/install/msg_srv_action_interface_example/include/**",
+                "/opt/ros/foxy/include/**",
+                "/home/changju/multibot_ws/src/multibot_ros2_interface/include/**",
+                "/home/changju/multibot_ws/src/multibot_server/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
