@@ -1,4 +1,10 @@
+msg/RobotConfig.idl
+msg/RobotConfig.msg
 msg/RobotState.idl
 msg/RobotState.msg
 msg/RobotStateArray.idl
 msg/RobotStateArray.msg
+srv/RobotConfigs.idl
+srv/RobotConfigs.srv
+srv/RobotConfigs_Request.msg
+srv/RobotConfigs_Response.msg

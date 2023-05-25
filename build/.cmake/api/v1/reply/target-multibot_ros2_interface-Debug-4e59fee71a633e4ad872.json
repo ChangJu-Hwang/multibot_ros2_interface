@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 31,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -227,14 +227,18 @@
 			[
 				0,
 				1,
-				2
+				2,
+				3,
+				4,
+				5,
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				3
+				7
 			]
 		}
 	],
@@ -248,12 +252,32 @@
 		},
 		{
 			"backtrace" : 2,
+			"path" : "msg/RobotConfig.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
 			"path" : "msg/RobotState.msg",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"path" : "msg/RobotStateArray.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "srv/RobotConfigs.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/RobotConfigs_Request.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/RobotConfigs_Response.msg",
 			"sourceGroupIndex" : 0
 		},
 		{

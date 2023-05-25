@@ -85,6 +85,11 @@ rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_ty
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librmw.so
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: libmultibot_ros2_interface__rosidl_generator_c.so
+rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
@@ -104,6 +109,7 @@ rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_ty
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib/libbuiltin_interfaces__python.so
+rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: /opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so
 rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c__pyext.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c__pyext.dir/link.txt --verbose=$(VERBOSE)

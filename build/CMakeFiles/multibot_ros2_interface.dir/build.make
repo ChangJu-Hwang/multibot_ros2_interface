@@ -53,8 +53,12 @@ CMAKE_BINARY_DIR = /home/changju/multibot_ws/src/multibot_ros2_interface/build
 # Include the progress variables for this target.
 include CMakeFiles/multibot_ros2_interface.dir/progress.make
 
+CMakeFiles/multibot_ros2_interface: ../msg/RobotConfig.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotState.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotStateArray.msg
+CMakeFiles/multibot_ros2_interface: ../srv/RobotConfigs.srv
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/RobotConfigs_Request.msg
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/RobotConfigs_Response.msg
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
@@ -85,6 +89,35 @@ CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/UInt64.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/UInt64MultiArray.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/UInt8.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Accel.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Inertia.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/InertiaStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Point.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Point32.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/PointStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Polygon.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/PolygonStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Pose.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Pose2D.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/PoseArray.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/PoseStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/PoseWithCovariance.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Quaternion.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/QuaternionStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Transform.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/TransformStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Twist.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/TwistStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/TwistWithCovariance.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Vector3.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Vector3Stamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Wrench.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl
 
 
 multibot_ros2_interface: CMakeFiles/multibot_ros2_interface

@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from multibot_ros2_interface/srv/RobotConfigs.srv
+// generated code does not contain a copyright notice
+
+#include "multibot_ros2_interface/msg/RobotConfig.idl"
+
+module multibot_ros2_interface {
+  module srv {
+    struct RobotConfigs_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct RobotConfigs_Response {
+      sequence<multibot_ros2_interface::msg::RobotConfig> configs;
+    };
+  };
+};

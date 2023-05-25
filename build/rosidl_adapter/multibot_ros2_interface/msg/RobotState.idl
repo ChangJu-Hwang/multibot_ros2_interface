@@ -2,19 +2,14 @@
 // with input from multibot_ros2_interface/msg/RobotState.msg
 // generated code does not contain a copyright notice
 
+#include "geometry_msgs/msg/Pose2D.idl"
 
 module multibot_ros2_interface {
   module msg {
     struct RobotState {
-      string robot_name;
+      string name;
 
-      double robot_x;
-
-      double robot_y;
-
-      double robot_theta;
-
-      double robot_size;
+      geometry_msgs::msg::Pose2D pose;
     };
   };
 };

@@ -1,12 +1,18 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_config__type_support.cpp.o"
   "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o"
   "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_state_array__type_support.cpp.o"
+  "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/robot_configs__type_support.cpp.o"
   "libmultibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.pdb"
   "libmultibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_config__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_state__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_state_array__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/robot_config__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/robot_state_array__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/robot_configs__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/robot_configs__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,9 @@
 {
   "package_name": "multibot_ros2_interface",
   "non_idl_tuples": [
+    "/home/changju/multibot_ws/src/multibot_ros2_interface:msg/RobotConfig.msg",
     "/home/changju/multibot_ws/src/multibot_ros2_interface:msg/RobotState.msg",
-    "/home/changju/multibot_ws/src/multibot_ros2_interface:msg/RobotStateArray.msg"
+    "/home/changju/multibot_ws/src/multibot_ros2_interface:msg/RobotStateArray.msg",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface:srv/RobotConfigs.srv"
   ]
 }

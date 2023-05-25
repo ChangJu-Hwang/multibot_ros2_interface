@@ -1,0 +1,4 @@
+string name
+float64 size
+float64 wheel_seperation
+float64 wheel_radius

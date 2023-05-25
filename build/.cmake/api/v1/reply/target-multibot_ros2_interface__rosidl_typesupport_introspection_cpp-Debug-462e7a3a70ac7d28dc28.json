@@ -42,7 +42,7 @@
 			{
 				"command" : 3,
 				"file" : 3,
-				"line" : 31,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -100,7 +100,7 @@
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 106,
+				"line" : 111,
 				"parent" : 4
 			},
 			{
@@ -108,6 +108,18 @@
 				"file" : 4,
 				"line" : 145,
 				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 145,
+				"parent" : 13
 			},
 			{
 				"command" : 7,
@@ -129,33 +141,33 @@
 			},
 			{
 				"file" : 7,
-				"parent" : 15
+				"parent" : 17
 			},
 			{
 				"command" : 10,
 				"file" : 7,
 				"line" : 15,
-				"parent" : 16
+				"parent" : 18
 			},
 			{
 				"file" : 6,
-				"parent" : 17
+				"parent" : 19
 			},
 			{
 				"command" : 1,
 				"file" : 6,
 				"line" : 41,
-				"parent" : 18
+				"parent" : 20
 			},
 			{
 				"file" : 5,
-				"parent" : 19
+				"parent" : 21
 			},
 			{
 				"command" : 9,
 				"file" : 5,
 				"line" : 25,
-				"parent" : 20
+				"parent" : 22
 			},
 			{
 				"command" : 11,
@@ -167,7 +179,7 @@
 				"command" : 11,
 				"file" : 4,
 				"line" : 141,
-				"parent" : 11
+				"parent" : 13
 			}
 		]
 	},
@@ -180,7 +192,7 @@
 					"fragment" : "-g -fPIC  "
 				},
 				{
-					"backtrace" : 14,
+					"backtrace" : 16,
 					"fragment" : "-Wall"
 				},
 				{
@@ -190,11 +202,11 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 12,
+					"backtrace" : 14,
 					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 23,
 					"define" : "ROS_PACKAGE_NAME=\"multibot_ros2_interface\""
 				},
 				{
@@ -204,11 +216,11 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 22,
+					"backtrace" : 24,
 					"path" : "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_cpp"
 				},
 				{
-					"backtrace" : 23,
+					"backtrace" : 25,
 					"isSystem" : true,
 					"path" : "/opt/ros/foxy/include"
 				}
@@ -216,15 +228,17 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				2,
-				3
+				4,
+				5,
+				6,
+				7
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 13,
+			"backtrace" : 15,
 			"id" : "multibot_ros2_interface__cpp::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -261,51 +275,76 @@
 			},
 			{
 				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
 				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
-				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 8,
-				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 8,
-				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 8,
+				"backtrace" : 10,
 				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 10,
-				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 10,
-				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 10,
-				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 10,
-				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
 				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
@@ -314,7 +353,7 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 10,
+				"backtrace" : 12,
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
@@ -327,7 +366,7 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 12,
+				"backtrace" : 14,
 				"fragment" : "/opt/ros/foxy/lib/librosidl_runtime_c.so",
 				"role" : "libraries"
 			},
@@ -360,27 +399,37 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				2,
-				3
+				4,
+				5,
+				6,
+				7
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				4
+				8
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_config__rosidl_typesupport_introspection_cpp.hpp",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
@@ -392,6 +441,19 @@
 			"isGenerated" : true,
 			"path" : "build/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_state_array__rosidl_typesupport_introspection_cpp.hpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/robot_configs__rosidl_typesupport_introspection_cpp.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_config__type_support.cpp",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 5,
@@ -408,9 +470,16 @@
 			"sourceGroupIndex" : 1
 		},
 		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/robot_configs__type_support.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp.rule",
+			"path" : "build/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_config__rosidl_typesupport_introspection_cpp.hpp.rule",
 			"sourceGroupIndex" : 2
 		}
 	],

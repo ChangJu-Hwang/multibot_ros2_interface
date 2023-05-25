@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "rosidl_generator_py/multibot_ros2_interface/multibot_ros2_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so"
+			"path" : "rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so"
 		}
 	],
 	"backtrace" : 5,
@@ -17,10 +17,9 @@
 			"install",
 			"target_link_libraries",
 			"rosidl_target_interfaces",
-			"ament_target_dependencies",
 			"add_dependencies",
 			"set_target_properties",
-			"set_properties",
+			"set_lib_properties",
 			"add_definitions",
 			"find_package",
 			"target_include_directories"
@@ -32,7 +31,6 @@
 			"/opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
 			"CMakeLists.txt",
 			"/opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake",
-			"/opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake",
 			"/opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
 			"/opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
 			"/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
@@ -45,7 +43,7 @@
 			{
 				"command" : 3,
 				"file" : 3,
-				"line" : 31,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -67,25 +65,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 235,
+				"line" : 175,
 				"parent" : 4
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 292,
+				"line" : 320,
 				"parent" : 4
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 255,
+				"line" : 176,
 				"parent" : 4
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 269,
+				"line" : 221,
 				"parent" : 4
 			},
 			{
@@ -96,81 +94,27 @@
 			},
 			{
 				"command" : 7,
-				"file" : 0,
-				"line" : 272,
-				"parent" : 4
-			},
-			{
-				"command" : 5,
-				"file" : 5,
-				"line" : 145,
-				"parent" : 10
-			},
-			{
-				"command" : 7,
-				"file" : 0,
-				"line" : 278,
-				"parent" : 4
-			},
-			{
-				"command" : 5,
-				"file" : 5,
-				"line" : 145,
-				"parent" : 12
-			},
-			{
-				"command" : 7,
-				"file" : 0,
-				"line" : 278,
-				"parent" : 4
-			},
-			{
-				"command" : 5,
-				"file" : 5,
-				"line" : 145,
-				"parent" : 14
-			},
-			{
-				"command" : 7,
-				"file" : 0,
-				"line" : 286,
-				"parent" : 4
-			},
-			{
-				"command" : 5,
-				"file" : 5,
-				"line" : 151,
-				"parent" : 16
-			},
-			{
-				"command" : 8,
 				"file" : 4,
 				"line" : 50,
 				"parent" : 8
 			},
 			{
-				"command" : 8,
+				"command" : 7,
 				"file" : 0,
-				"line" : 283,
-				"parent" : 4
-			},
-			{
-				"command" : 8,
-				"file" : 0,
-				"line" : 238,
-				"parent" : 4
-			},
-			{
-				"command" : 10,
-				"file" : 0,
-				"line" : 248,
+				"line" : 178,
 				"parent" : 4
 			},
 			{
 				"command" : 9,
 				"file" : 0,
-				"line" : 158,
-				"parent" : 21
+				"line" : 312,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 12
 			},
 			{
 				"command" : 1,
@@ -179,52 +123,46 @@
 				"parent" : 2
 			},
 			{
-				"file" : 8,
-				"parent" : 23
-			},
-			{
-				"command" : 12,
-				"file" : 8,
-				"line" : 15,
-				"parent" : 24
-			},
-			{
 				"file" : 7,
-				"parent" : 25
-			},
-			{
-				"command" : 1,
-				"file" : 7,
-				"line" : 41,
-				"parent" : 26
-			},
-			{
-				"file" : 6,
-				"parent" : 27
+				"parent" : 14
 			},
 			{
 				"command" : 11,
-				"file" : 6,
-				"line" : 25,
-				"parent" : 28
+				"file" : 7,
+				"line" : 15,
+				"parent" : 15
 			},
 			{
-				"command" : 13,
+				"file" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 41,
+				"parent" : 17
+			},
+			{
+				"file" : 5,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 25,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
 				"file" : 0,
-				"line" : 262,
+				"line" : 188,
 				"parent" : 4
 			},
 			{
-				"command" : 13,
+				"command" : 12,
 				"file" : 4,
 				"line" : 52,
 				"parent" : 8
-			},
-			{
-				"command" : 13,
-				"file" : 5,
-				"line" : 141,
-				"parent" : 10
 			}
 		]
 	},
@@ -237,11 +175,11 @@
 					"fragment" : "-g -fPIC  "
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 13,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 22,
+					"backtrace" : 13,
 					"fragment" : "-Wextra"
 				}
 			],
@@ -252,37 +190,33 @@
 					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
 				},
 				{
-					"backtrace" : 29,
+					"backtrace" : 20,
 					"define" : "ROS_PACKAGE_NAME=\"multibot_ros2_interface\""
 				},
 				{
-					"define" : "multibot_ros2_interface__rosidl_typesupport_introspection_c__pyext_EXPORTS"
+					"define" : "multibot_ros2_interface__python_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 30,
+					"backtrace" : 21,
 					"path" : "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c"
 				},
 				{
-					"backtrace" : 30,
+					"backtrace" : 21,
 					"path" : "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py"
 				},
 				{
-					"backtrace" : 30,
+					"backtrace" : 21,
 					"path" : "/usr/include/python3.8"
 				},
 				{
-					"backtrace" : 31,
+					"backtrace" : 22,
 					"path" : "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_c"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_introspection_c"
-				},
-				{
-					"backtrace" : 32,
 					"isSystem" : true,
 					"path" : "/opt/ros/foxy/include"
 				}
@@ -290,18 +224,17 @@
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2,
+				3
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 7,
-			"id" : "multibot_ros2_interface__python::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 18,
+			"backtrace" : 10,
 			"id" : "multibot_ros2_interface::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -309,30 +242,26 @@
 			"id" : "multibot_ros2_interface__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 19,
-			"id" : "multibot_ros2_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 20,
+			"backtrace" : 11,
 			"id" : "multibot_ros2_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 20,
+			"backtrace" : 11,
 			"id" : "multibot_ros2_interface__py::@c3a20a324c3069de9304"
 		}
 	],
-	"id" : "multibot_ros2_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+	"id" : "multibot_ros2_interface__python::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
 		[
 			{
 				"backtrace" : 6,
-				"path" : "lib/python3/dist-packages/multibot_ros2_interface"
+				"path" : "lib"
 			},
 			{
 				"backtrace" : 6,
-				"path" : "lib/python3/dist-packages/multibot_ros2_interface"
+				"path" : "lib"
 			}
 		],
 		"prefix" : 
@@ -349,12 +278,12 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface:/home/changju/multibot_ws/src/multibot_ros2_interface/build:/opt/ros/foxy/lib:/opt/ros/foxy/share/std_msgs/cmake/../../../lib:/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib:",
+				"fragment" : "-Wl,-rpath,/home/changju/multibot_ws/src/multibot_ros2_interface/build:/opt/ros/foxy/share/std_msgs/cmake/../../../lib:/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib:/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib:/opt/ros/foxy/lib:",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 7,
-				"fragment" : "rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so",
+				"fragment" : "libmultibot_ros2_interface__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{
@@ -362,22 +291,8 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 7,
-				"fragment" : "libmultibot_ros2_interface__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
 				"backtrace" : 9,
 				"fragment" : "libmultibot_ros2_interface__rosidl_typesupport_c.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/librmw.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 11,
-				"fragment" : "/opt/ros/foxy/lib/librosidl_runtime_c.so",
 				"role" : "libraries"
 			},
 			{
@@ -389,51 +304,62 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "libmultibot_ros2_interface__rosidl_generator_c.so",
+				"fragment" : "/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
 				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
 				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
 				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
 				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 15,
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 15,
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 15,
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 15,
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
@@ -442,7 +368,10 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 15,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
@@ -451,12 +380,10 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 11,
 				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 11,
 				"fragment" : "/opt/ros/foxy/lib/librosidl_runtime_c.so",
 				"role" : "libraries"
 			},
@@ -465,23 +392,18 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 17,
 				"fragment" : "/opt/ros/foxy/lib/librcutils.so",
 				"role" : "libraries"
 			},
 			{
 				"fragment" : "-ldl",
 				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
-	"name" : "multibot_ros2_interface__rosidl_typesupport_introspection_c__pyext",
-	"nameOnDisk" : "multibot_ros2_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so",
+	"name" : "multibot_ros2_interface__python",
+	"nameOnDisk" : "libmultibot_ros2_interface__python.so",
 	"paths" : 
 	{
 		"build" : ".",
@@ -493,7 +415,10 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1,
+				2,
+				3
 			]
 		}
 	],
@@ -503,7 +428,28 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.c",
+			"path" : "build/rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs_s.c",
 			"sourceGroupIndex" : 0
 		}
 	],
