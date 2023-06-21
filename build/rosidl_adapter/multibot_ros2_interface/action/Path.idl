@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from multibot_ros2_interface/action/Path.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+#include "multibot_ros2_interface/msg/LocalPath.idl"
+
+module multibot_ros2_interface {
+  module action {
+    struct Path_Goal {
+      sequence<multibot_ros2_interface::msg::LocalPath> path_segments;
+    };
+    struct Path_Result {
+      geometry_msgs::msg::Pose2D pose;
+    };
+    struct Path_Feedback {
+      geometry_msgs::msg::Pose2D pose;
+    };
+  };
+};

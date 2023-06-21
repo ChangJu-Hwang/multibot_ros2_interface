@@ -20,11 +20,13 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED) 
+find_package(builtin_interfaces REQUIRED)
 
 ################################################################################
 # Declare ROS messages, services and actions
 ################################################################################
 set(msg_files
+  "msg/LocalPath.msg"
   "msg/RobotConfig.msg"
   "msg/RobotState.msg"
   "msg/RobotStateArray.msg"
@@ -32,12 +34,18 @@ set(msg_files
 
 set(srv_files
   "srv/RobotConfigs.srv"
+  "srv/RobotInfo.srv"
+)
+
+set(action_files
+  "action/Path.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
-  DEPENDENCIES std_msgs geometry_msgs
+  ${action_files}
+  DEPENDENCIES std_msgs geometry_msgs builtin_interfaces
 )
 
 ################################################################################

@@ -16,7 +16,7 @@ set(_multibot_ros2_interface_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT multibot_ros2_interface_FIND_QUIETLY)
-  message(STATUS "Found multibot_ros2_interface: 0.1.0 (${multibot_ros2_interface_DIR})")
+  message(STATUS "Found multibot_ros2_interface: 0.2.0 (${multibot_ros2_interface_DIR})")
 endif()
 
 # warn when using a deprecated package

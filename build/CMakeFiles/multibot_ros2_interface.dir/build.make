@@ -53,12 +53,17 @@ CMAKE_BINARY_DIR = /home/changju/multibot_ws/src/multibot_ros2_interface/build
 # Include the progress variables for this target.
 include CMakeFiles/multibot_ros2_interface.dir/progress.make
 
+CMakeFiles/multibot_ros2_interface: ../msg/LocalPath.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotConfig.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotState.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotStateArray.msg
 CMakeFiles/multibot_ros2_interface: ../srv/RobotConfigs.srv
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/RobotConfigs_Request.msg
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/RobotConfigs_Response.msg
+CMakeFiles/multibot_ros2_interface: ../srv/RobotInfo.srv
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/RobotInfo_Request.msg
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/RobotInfo_Response.msg
+CMakeFiles/multibot_ros2_interface: ../action/Path.action
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
@@ -118,6 +123,12 @@ CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Vector
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Vector3Stamped.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl
 
 
 multibot_ros2_interface: CMakeFiles/multibot_ros2_interface

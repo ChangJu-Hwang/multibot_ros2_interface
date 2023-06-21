@@ -2373,6 +2373,14 @@
 		},
 		{
 			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake"
+		},
+		{
+			"isExternal" : true,
 			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake"
 		},
 		{
@@ -2396,6 +2404,9 @@
 			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake"
 		},
 		{
+			"path" : "msg/LocalPath.msg"
+		},
+		{
 			"path" : "msg/RobotConfig.msg"
 		},
 		{
@@ -2406,6 +2417,12 @@
 		},
 		{
 			"path" : "srv/RobotConfigs.srv"
+		},
+		{
+			"path" : "srv/RobotInfo.srv"
+		},
+		{
+			"path" : "action/Path.action"
 		},
 		{
 			"isCMake" : true,
@@ -2421,6 +2438,214 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake-3.16/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/rosidl_cmake-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/ament_cmake_export_dependencies-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/rosidl_cmake-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/ament_cmake_export_dependencies-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/ament_cmake_export_libraries-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/ament_cmake_export_targets-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_generator_cExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_generator_cExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_generator_cppExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cppExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_introspection_cppExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cppExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/unique_identifier_msgs__rosidl_typesupport_cppExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/ament_cmake_export_include_directories-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/ament_cmake_export_libraries-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/ament_cmake_export_targets-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_generator_cExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_generator_cExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_generator_cppExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_introspection_cppExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cppExport-none.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/ament_cmake_export_include_directories-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/ros/foxy/share/action_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
 		},
 		{
 			"path" : "package.xml"

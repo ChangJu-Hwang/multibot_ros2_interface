@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 37,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
@@ -231,14 +231,19 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				12
 			]
 		}
 	],
@@ -248,6 +253,11 @@
 			"backtrace" : 2,
 			"isGenerated" : true,
 			"path" : "build/CMakeFiles/multibot_ros2_interface",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "msg/LocalPath.msg",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -278,6 +288,26 @@
 		{
 			"backtrace" : 2,
 			"path" : "build/rosidl_cmake/srv/RobotConfigs_Response.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "srv/RobotInfo.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/RobotInfo_Request.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/RobotInfo_Response.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "action/Path.action",
 			"sourceGroupIndex" : 0
 		},
 		{

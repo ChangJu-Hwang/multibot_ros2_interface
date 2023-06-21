@@ -2,7 +2,12 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_c.c"
   "../rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.c"
+  "../rosidl_generator_py/multibot_ros2_interface/action/__init__.py"
+  "../rosidl_generator_py/multibot_ros2_interface/action/_path.py"
+  "../rosidl_generator_py/multibot_ros2_interface/action/_path_s.c"
   "../rosidl_generator_py/multibot_ros2_interface/msg/__init__.py"
+  "../rosidl_generator_py/multibot_ros2_interface/msg/_local_path.py"
+  "../rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c"
   "../rosidl_generator_py/multibot_ros2_interface/msg/_robot_config.py"
   "../rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.c"
   "../rosidl_generator_py/multibot_ros2_interface/msg/_robot_state.py"
@@ -12,6 +17,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/multibot_ros2_interface/srv/__init__.py"
   "../rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs.py"
   "../rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs_s.c"
+  "../rosidl_generator_py/multibot_ros2_interface/srv/_robot_info.py"
+  "../rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c"
   "CMakeFiles/multibot_ros2_interface__py"
 )
 

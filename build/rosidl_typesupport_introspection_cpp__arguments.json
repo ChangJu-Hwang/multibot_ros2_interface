@@ -3,10 +3,13 @@
   "output_dir": "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_introspection_cpp/multibot_ros2_interface",
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:msg/LocalPath.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:msg/RobotConfig.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:msg/RobotState.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:msg/RobotStateArray.idl",
-    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:srv/RobotConfigs.idl"
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:srv/RobotConfigs.idl",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:srv/RobotInfo.idl",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:action/Path.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/foxy/share/std_msgs/msg/Bool.idl",
@@ -69,7 +72,12 @@
     "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/Vector3.idl",
     "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/Vector3Stamped.idl",
     "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/Wrench.idl",
-    "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl"
+    "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl",
+    "unique_identifier_msgs:/opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
@@ -80,10 +88,13 @@
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/LocalPath.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/RobotConfig.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/RobotState.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/RobotStateArray.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/RobotConfigs.idl",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/RobotInfo.idl",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/action/Path.idl",
     "/opt/ros/foxy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/foxy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl",
@@ -144,6 +155,11 @@
     "/opt/ros/foxy/share/geometry_msgs/msg/Vector3.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/Vector3Stamped.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/Wrench.idl",
-    "/opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl"
+    "/opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl",
+    "/opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl"
   ]
 }

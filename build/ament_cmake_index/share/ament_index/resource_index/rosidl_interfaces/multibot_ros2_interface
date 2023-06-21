@@ -1,3 +1,7 @@
+action/Path.action
+action/Path.idl
+msg/LocalPath.idl
+msg/LocalPath.msg
 msg/RobotConfig.idl
 msg/RobotConfig.msg
 msg/RobotState.idl
@@ -8,3 +12,7 @@ srv/RobotConfigs.idl
 srv/RobotConfigs.srv
 srv/RobotConfigs_Request.msg
 srv/RobotConfigs_Response.msg
+srv/RobotInfo.idl
+srv/RobotInfo.srv
+srv/RobotInfo_Request.msg
+srv/RobotInfo_Response.msg

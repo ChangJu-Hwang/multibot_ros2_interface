@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multibot_ros2_interface/msg/LocalPath.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Pose2D.idl"
+
+module multibot_ros2_interface {
+  module msg {
+    struct LocalPath {
+      geometry_msgs::msg::Pose2D start;
+
+      geometry_msgs::msg::Pose2D goal;
+
+      builtin_interfaces::msg::Time departure_time;
+
+      builtin_interfaces::msg::Time arrival_time;
+    };
+  };
+};

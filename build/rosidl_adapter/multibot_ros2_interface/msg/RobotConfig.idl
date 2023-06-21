@@ -13,6 +13,14 @@ module multibot_ros2_interface {
       double wheel_seperation;
 
       double wheel_radius;
+
+      double max_linvel;
+
+      double max_linacc;
+
+      double max_angvel;
+
+      double max_angacc;
     };
   };
 };
