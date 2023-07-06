@@ -1,4 +1,4 @@
 geometry_msgs/Pose2D start
 geometry_msgs/Pose2D goal
-builtin_interfaces/Time departure_time
-builtin_interfaces/Time arrival_time
+float64 departure_time
+float64 arrival_time

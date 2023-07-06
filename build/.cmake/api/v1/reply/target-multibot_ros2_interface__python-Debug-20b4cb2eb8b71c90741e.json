@@ -43,7 +43,7 @@
 			{
 				"command" : 3,
 				"file" : 3,
-				"line" : 44,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -228,9 +228,7 @@
 				1,
 				2,
 				3,
-				4,
-				5,
-				6
+				4
 			]
 		}
 	],
@@ -281,7 +279,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/changju/multibot_ws/src/multibot_ros2_interface/build:/opt/ros/foxy/share/std_msgs/cmake/../../../lib:/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib:/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib:/opt/ros/foxy/share/action_msgs/cmake/../../../lib:/opt/ros/foxy/share/unique_identifier_msgs/cmake/../../../lib:/opt/ros/foxy/lib:",
+				"fragment" : "-Wl,-rpath,/home/changju/multibot_ws/src/multibot_ros2_interface/build:/opt/ros/foxy/share/std_msgs/cmake/../../../lib:/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib:/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib:/opt/ros/foxy/lib:",
 				"role" : "libraries"
 			},
 			{
@@ -308,14 +306,6 @@
 			},
 			{
 				"fragment" : "/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/share/action_msgs/cmake/../../../lib/libaction_msgs__python.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/../../../lib/libunique_identifier_msgs__python.so",
 				"role" : "libraries"
 			},
 			{
@@ -359,26 +349,6 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_c.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_cpp.so",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
 				"role" : "libraries"
 			},
@@ -395,26 +365,6 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
@@ -423,7 +373,7 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so",
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -470,9 +420,7 @@
 				1,
 				2,
 				3,
-				4,
-				5,
-				6
+				4
 			]
 		}
 	],
@@ -503,14 +451,7 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array_s.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs_s.c",
+			"path" : "build/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -518,13 +459,6 @@
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/rosidl_generator_py/multibot_ros2_interface/action/_path_s.c",
 			"sourceGroupIndex" : 0
 		}
 	],

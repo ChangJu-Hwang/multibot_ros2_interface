@@ -65,22 +65,14 @@ CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_inte
 CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state__builder.hpp
 CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state__struct.hpp
 CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state__traits.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/robot_state_array.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__builder.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__struct.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__traits.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/robot_configs.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__builder.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__struct.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__traits.hpp
+CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/path.hpp
+CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__builder.hpp
+CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__struct.hpp
+CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__traits.hpp
 CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/robot_info.hpp
 CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_info__builder.hpp
 CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_info__struct.hpp
 CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_info__traits.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/action/path.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__builder.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__struct.hpp
-CMakeFiles/multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__traits.hpp
 
 
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -101,10 +93,8 @@ rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/s
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: rosidl_adapter/multibot_ros2_interface/msg/LocalPath.idl
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: rosidl_adapter/multibot_ros2_interface/msg/RobotConfig.idl
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: rosidl_adapter/multibot_ros2_interface/msg/RobotState.idl
-rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: rosidl_adapter/multibot_ros2_interface/msg/RobotStateArray.idl
-rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: rosidl_adapter/multibot_ros2_interface/srv/RobotConfigs.idl
+rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: rosidl_adapter/multibot_ros2_interface/srv/Path.idl
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: rosidl_adapter/multibot_ros2_interface/srv/RobotInfo.idl
-rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: rosidl_adapter/multibot_ros2_interface/action/Path.idl
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
@@ -166,11 +156,6 @@ rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/s
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Vector3Stamped.idl
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl
-rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp: /opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_cpp__arguments.json
 
@@ -207,29 +192,17 @@ rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state__struct.hpp:
 rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state__traits.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state__traits.hpp
 
-rosidl_generator_cpp/multibot_ros2_interface/msg/robot_state_array.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/msg/robot_state_array.hpp
+rosidl_generator_cpp/multibot_ros2_interface/srv/path.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/path.hpp
 
-rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__builder.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__builder.hpp
+rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__builder.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__builder.hpp
 
-rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__struct.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__struct.hpp
+rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__struct.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__struct.hpp
 
-rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__traits.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__traits.hpp
-
-rosidl_generator_cpp/multibot_ros2_interface/srv/robot_configs.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/robot_configs.hpp
-
-rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__builder.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__builder.hpp
-
-rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__struct.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__struct.hpp
-
-rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__traits.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__traits.hpp
+rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__traits.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__traits.hpp
 
 rosidl_generator_cpp/multibot_ros2_interface/srv/robot_info.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/robot_info.hpp
@@ -242,18 +215,6 @@ rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_info__struct.hpp: 
 
 rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_info__traits.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_info__traits.hpp
-
-rosidl_generator_cpp/multibot_ros2_interface/action/path.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/action/path.hpp
-
-rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__builder.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__builder.hpp
-
-rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__struct.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__struct.hpp
-
-rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__traits.hpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__traits.hpp
 
 multibot_ros2_interface__cpp: CMakeFiles/multibot_ros2_interface__cpp
 multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/local_path.hpp
@@ -268,22 +229,14 @@ multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/r
 multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state__builder.hpp
 multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state__struct.hpp
 multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state__traits.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/robot_state_array.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__builder.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__struct.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/msg/detail/robot_state_array__traits.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/robot_configs.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__builder.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__struct.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_configs__traits.hpp
+multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/path.hpp
+multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__builder.hpp
+multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__struct.hpp
+multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/path__traits.hpp
 multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/robot_info.hpp
 multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_info__builder.hpp
 multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_info__struct.hpp
 multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/srv/detail/robot_info__traits.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/action/path.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__builder.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__struct.hpp
-multibot_ros2_interface__cpp: rosidl_generator_cpp/multibot_ros2_interface/action/detail/path__traits.hpp
 multibot_ros2_interface__cpp: CMakeFiles/multibot_ros2_interface__cpp.dir/build.make
 
 .PHONY : multibot_ros2_interface__cpp

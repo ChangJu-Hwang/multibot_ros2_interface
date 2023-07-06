@@ -1,0 +1,4 @@
+LocalPath[] path
+float64 start_time
+---
+bool receive_status

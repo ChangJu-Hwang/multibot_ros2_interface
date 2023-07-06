@@ -42,7 +42,7 @@
 			{
 				"command" : 3,
 				"file" : 3,
-				"line" : 44,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
@@ -128,30 +128,6 @@
 				"parent" : 14
 			},
 			{
-				"command" : 6,
-				"file" : 0,
-				"line" : 152,
-				"parent" : 4
-			},
-			{
-				"command" : 5,
-				"file" : 4,
-				"line" : 145,
-				"parent" : 16
-			},
-			{
-				"command" : 6,
-				"file" : 0,
-				"line" : 152,
-				"parent" : 4
-			},
-			{
-				"command" : 5,
-				"file" : 4,
-				"line" : 145,
-				"parent" : 18
-			},
-			{
 				"command" : 7,
 				"file" : 0,
 				"line" : 169,
@@ -171,33 +147,33 @@
 			},
 			{
 				"file" : 7,
-				"parent" : 22
+				"parent" : 18
 			},
 			{
 				"command" : 10,
 				"file" : 7,
 				"line" : 15,
-				"parent" : 23
+				"parent" : 19
 			},
 			{
 				"file" : 6,
-				"parent" : 24
+				"parent" : 20
 			},
 			{
 				"command" : 1,
 				"file" : 6,
 				"line" : 41,
-				"parent" : 25
+				"parent" : 21
 			},
 			{
 				"file" : 5,
-				"parent" : 26
+				"parent" : 22
 			},
 			{
 				"command" : 9,
 				"file" : 5,
 				"line" : 25,
-				"parent" : 27
+				"parent" : 23
 			},
 			{
 				"command" : 11,
@@ -225,15 +201,15 @@
 					"fragment" : "-Wall -Wextra -Wpedantic"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 17,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 17,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 21,
+					"backtrace" : 17,
 					"fragment" : "-Wpedantic"
 				},
 				{
@@ -263,7 +239,7 @@
 					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
 				},
 				{
-					"backtrace" : 28,
+					"backtrace" : 24,
 					"define" : "ROS_PACKAGE_NAME=\"multibot_ros2_interface\""
 				},
 				{
@@ -273,15 +249,15 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 29,
+					"backtrace" : 25,
 					"path" : "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_cpp"
 				},
 				{
-					"backtrace" : 29,
+					"backtrace" : 25,
 					"path" : "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_cpp"
 				},
 				{
-					"backtrace" : 30,
+					"backtrace" : 26,
 					"isSystem" : true,
 					"path" : "/opt/ros/foxy/include"
 				},
@@ -298,16 +274,14 @@
 				2,
 				4,
 				6,
-				8,
-				10,
-				12
+				8
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 20,
+			"backtrace" : 16,
 			"id" : "multibot_ros2_interface__cpp::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -362,14 +336,6 @@
 			},
 			{
 				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -434,72 +400,22 @@
 			},
 			{
 				"backtrace" : 15,
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 15,
-				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 17,
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 17,
+				"backtrace" : 15,
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 17,
+				"backtrace" : 15,
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 17,
+				"backtrace" : 15,
 				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 17,
-				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 19,
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 19,
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 19,
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 19,
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -511,8 +427,8 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 19,
-				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so",
+				"backtrace" : 15,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -592,9 +508,7 @@
 				2,
 				4,
 				6,
-				8,
-				10,
-				12
+				8
 			]
 		},
 		{
@@ -605,16 +519,14 @@
 				3,
 				5,
 				7,
-				9,
-				11,
-				13
+				9
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				14
+				10
 			]
 		}
 	],
@@ -663,26 +575,13 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_state_array__type_support.cpp",
+			"path" : "build/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "build/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/robot_state_array__rosidl_typesupport_fastrtps_cpp.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/robot_configs__type_support.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/robot_configs__rosidl_typesupport_fastrtps_cpp.hpp",
+			"path" : "build/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/path__rosidl_typesupport_fastrtps_cpp.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -696,19 +595,6 @@
 			"backtrace" : 5,
 			"isGenerated" : true,
 			"path" : "build/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/robot_info__rosidl_typesupport_fastrtps_cpp.hpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/action/detail/dds_fastrtps/path__type_support.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"isGenerated" : true,
-			"path" : "build/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/action/detail/path__rosidl_typesupport_fastrtps_cpp.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{

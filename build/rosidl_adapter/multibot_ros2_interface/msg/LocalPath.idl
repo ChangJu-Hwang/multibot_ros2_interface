@@ -2,7 +2,6 @@
 // with input from multibot_ros2_interface/msg/LocalPath.msg
 // generated code does not contain a copyright notice
 
-#include "builtin_interfaces/msg/Time.idl"
 #include "geometry_msgs/msg/Pose2D.idl"
 
 module multibot_ros2_interface {
@@ -12,9 +11,9 @@ module multibot_ros2_interface {
 
       geometry_msgs::msg::Pose2D goal;
 
-      builtin_interfaces::msg::Time departure_time;
+      double departure_time;
 
-      builtin_interfaces::msg::Time arrival_time;
+      double arrival_time;
     };
   };
 };

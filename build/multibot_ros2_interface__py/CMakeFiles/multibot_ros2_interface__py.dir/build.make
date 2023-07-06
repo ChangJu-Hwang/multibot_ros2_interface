@@ -59,20 +59,15 @@ multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_gener
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_local_path.py
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_config.py
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_state.py
-multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array.py
-multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs.py
+multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_path.py
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_robot_info.py
-multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/action/_path.py
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/__init__.py
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/__init__.py
-multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/action/__init__.py
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.c
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c
-multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array_s.c
-multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs_s.c
+multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c
 multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c
-multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/action/_path_s.c
 
 
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -91,10 +86,8 @@ rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/multibot_ros2_interface/msg/LocalPath.idl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/multibot_ros2_interface/msg/RobotConfig.idl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/multibot_ros2_interface/msg/RobotState.idl
-rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/multibot_ros2_interface/msg/RobotStateArray.idl
-rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/multibot_ros2_interface/srv/RobotConfigs.idl
+rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/multibot_ros2_interface/srv/Path.idl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/multibot_ros2_interface/srv/RobotInfo.idl
-rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/multibot_ros2_interface/action/Path.idl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
@@ -156,11 +149,6 @@ rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/geometry_msgs/msg/Vector3Stamped.idl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl
-rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/changju/multibot_ws/src/multibot_ros2_interface/build/multibot_ros2_interface__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -179,26 +167,17 @@ rosidl_generator_py/multibot_ros2_interface/msg/_robot_config.py: rosidl_generat
 rosidl_generator_py/multibot_ros2_interface/msg/_robot_state.py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/msg/_robot_state.py
 
-rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array.py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array.py
-
-rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs.py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs.py
+rosidl_generator_py/multibot_ros2_interface/srv/_path.py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/srv/_path.py
 
 rosidl_generator_py/multibot_ros2_interface/srv/_robot_info.py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/srv/_robot_info.py
-
-rosidl_generator_py/multibot_ros2_interface/action/_path.py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/action/_path.py
 
 rosidl_generator_py/multibot_ros2_interface/msg/__init__.py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/msg/__init__.py
 
 rosidl_generator_py/multibot_ros2_interface/srv/__init__.py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/srv/__init__.py
-
-rosidl_generator_py/multibot_ros2_interface/action/__init__.py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/action/__init__.py
 
 rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c
@@ -209,17 +188,11 @@ rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.c: rosidl_genera
 rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c
 
-rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array_s.c: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array_s.c
-
-rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs_s.c: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs_s.c
+rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c
 
 rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c
-
-rosidl_generator_py/multibot_ros2_interface/action/_path_s.c: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/multibot_ros2_interface/action/_path_s.c
 
 multibot_ros2_interface__py: multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -228,20 +201,15 @@ multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/_multib
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_local_path.py
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_config.py
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_state.py
-multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array.py
-multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs.py
+multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_path.py
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_robot_info.py
-multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/action/_path.py
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/__init__.py
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/__init__.py
-multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/action/__init__.py
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.c
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c
-multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_array_s.c
-multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_robot_configs_s.c
+multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c
 multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c
-multibot_ros2_interface__py: rosidl_generator_py/multibot_ros2_interface/action/_path_s.c
 multibot_ros2_interface__py: multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py.dir/build.make
 
 .PHONY : multibot_ros2_interface__py

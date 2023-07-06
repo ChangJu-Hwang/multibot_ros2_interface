@@ -73,10 +73,8 @@ rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: rosidl_adapter/multibot_ros2_interface/msg/LocalPath.idl
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: rosidl_adapter/multibot_ros2_interface/msg/RobotConfig.idl
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: rosidl_adapter/multibot_ros2_interface/msg/RobotState.idl
-rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: rosidl_adapter/multibot_ros2_interface/msg/RobotStateArray.idl
-rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: rosidl_adapter/multibot_ros2_interface/srv/RobotConfigs.idl
+rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: rosidl_adapter/multibot_ros2_interface/srv/Path.idl
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: rosidl_adapter/multibot_ros2_interface/srv/RobotInfo.idl
-rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: rosidl_adapter/multibot_ros2_interface/action/Path.idl
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
@@ -138,11 +136,6 @@ rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/geometry_msgs/msg/Vector3Stamped.idl
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl
-rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/action_msgs/msg/GoalInfo.idl
-rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/action_msgs/msg/GoalStatus.idl
-rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/action_msgs/msg/GoalStatusArray.idl
-rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/action_msgs/srv/CancelGoal.idl
-rosidl_generator_c/multibot_ros2_interface/msg/local_path.h: /opt/ros/foxy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c__arguments.json
 
@@ -179,29 +172,17 @@ rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__struct.h: ros
 rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__type_support.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__type_support.h
 
-rosidl_generator_c/multibot_ros2_interface/msg/robot_state_array.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/msg/robot_state_array.h
+rosidl_generator_c/multibot_ros2_interface/srv/path.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/path.h
 
-rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.h
+rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.h
 
-rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__struct.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__struct.h
+rosidl_generator_c/multibot_ros2_interface/srv/detail/path__struct.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/path__struct.h
 
-rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__type_support.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__type_support.h
-
-rosidl_generator_c/multibot_ros2_interface/srv/robot_configs.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/robot_configs.h
-
-rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.h
-
-rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__struct.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__struct.h
-
-rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__type_support.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__type_support.h
+rosidl_generator_c/multibot_ros2_interface/srv/detail/path__type_support.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/path__type_support.h
 
 rosidl_generator_c/multibot_ros2_interface/srv/robot_info.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/robot_info.h
@@ -215,18 +196,6 @@ rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__struct.h: rosi
 rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__type_support.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__type_support.h
 
-rosidl_generator_c/multibot_ros2_interface/action/path.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/action/path.h
-
-rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.h
-
-rosidl_generator_c/multibot_ros2_interface/action/detail/path__struct.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/action/detail/path__struct.h
-
-rosidl_generator_c/multibot_ros2_interface/action/detail/path__type_support.h: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/action/detail/path__type_support.h
-
 rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c
 
@@ -236,17 +205,11 @@ rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_config__functions.c:
 rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__functions.c: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__functions.c
 
-rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c
-
-rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c
+rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c
 
 rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c
-
-rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c: rosidl_generator_c/multibot_ros2_interface/msg/local_path.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c
 
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.o: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/flags.make
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.o: rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c
@@ -287,35 +250,22 @@ CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/mu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__functions.c.s"
 	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__functions.c -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__functions.c.s
 
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.o: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/flags.make
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.o: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.o"
-	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.o   -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c
+CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o: rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o"
+	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o   -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c
 
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.i"
-	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c > CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.i
+CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.i"
+	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c > CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.i
 
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.s"
-	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.s
-
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.o: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/flags.make
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.o: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.o"
-	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.o   -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c
-
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.i"
-	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c > CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.i
-
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.s"
-	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.s
+CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.s"
+	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.s
 
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.o: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/flags.make
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.o: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.o"
 	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.o   -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c
 
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.i: cmake_force
@@ -326,28 +276,13 @@ CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/mu
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.s"
 	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.s
 
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.o: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/flags.make
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.o: rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.o"
-	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.o   -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c
-
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.i"
-	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c > CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.i
-
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.s"
-	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c -o CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.s
-
 # Object files for target multibot_ros2_interface__rosidl_generator_c
 multibot_ros2_interface__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.o" \
 "CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_config__functions.c.o" \
 "CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__functions.c.o" \
-"CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.o" \
-"CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.o" \
-"CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.o" \
-"CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.o"
+"CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o" \
+"CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.o"
 
 # External object files for target multibot_ros2_interface__rosidl_generator_c
 multibot_ros2_interface__rosidl_generator_c_EXTERNAL_OBJECTS =
@@ -355,45 +290,33 @@ multibot_ros2_interface__rosidl_generator_c_EXTERNAL_OBJECTS =
 libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.o
 libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_config__functions.c.o
 libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__functions.c.o
-libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c.o
-libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c.o
+libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o
 libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c.o
-libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c.o
 libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_c.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_cpp.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
-libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/librcpputils.so
 libmultibot_ros2_interface__rosidl_generator_c.so: /opt/ros/foxy/lib/librcutils.so
 libmultibot_ros2_interface__rosidl_generator_c.so: CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C shared library libmultibot_ros2_interface__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library libmultibot_ros2_interface__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -417,29 +340,19 @@ CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_genera
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__functions.h
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__struct.h
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__type_support.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/robot_state_array.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__struct.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__type_support.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/robot_configs.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__struct.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__type_support.h
+CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/path.h
+CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.h
+CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/path__struct.h
+CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/path__type_support.h
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/robot_info.h
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.h
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__struct.h
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__type_support.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/action/path.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/action/detail/path__struct.h
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/action/detail/path__type_support.h
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_config__functions.c
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state__functions.c
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_state_array__functions.c
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_configs__functions.c
+CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c
 CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/srv/detail/robot_info__functions.c
-CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/multibot_ros2_interface/action/detail/path__functions.c
 	cd /home/changju/multibot_ws/src/multibot_ros2_interface/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/changju/multibot_ws/src/multibot_ros2_interface /home/changju/multibot_ws/src/multibot_ros2_interface /home/changju/multibot_ws/src/multibot_ros2_interface/build /home/changju/multibot_ws/src/multibot_ros2_interface/build /home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/depend
 
