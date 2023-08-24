@@ -2405,6 +2405,12 @@
 			"path" : "msg/RobotState.msg"
 		},
 		{
+			"path" : "srv/Connection.srv"
+		},
+		{
+			"path" : "srv/Disconnection.srv"
+		},
+		{
 			"path" : "srv/Path.srv"
 		},
 		{

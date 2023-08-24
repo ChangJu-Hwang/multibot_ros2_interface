@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 38,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -234,14 +234,20 @@
 				6,
 				7,
 				8,
-				9
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				10
+				16
 			]
 		}
 	],
@@ -266,6 +272,36 @@
 		{
 			"backtrace" : 2,
 			"path" : "msg/RobotState.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "srv/Connection.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/Connection_Request.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/Connection_Response.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "srv/Disconnection.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/Disconnection_Request.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/Disconnection_Response.msg",
 			"sourceGroupIndex" : 0
 		},
 		{

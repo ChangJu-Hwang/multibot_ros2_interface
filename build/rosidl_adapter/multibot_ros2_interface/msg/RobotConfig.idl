@@ -8,6 +8,8 @@ module multibot_ros2_interface {
     struct RobotConfig {
       string name;
 
+      string type;
+
       double size;
 
       double wheel_seperation;

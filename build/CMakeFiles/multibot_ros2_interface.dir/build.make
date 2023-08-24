@@ -56,6 +56,12 @@ include CMakeFiles/multibot_ros2_interface.dir/progress.make
 CMakeFiles/multibot_ros2_interface: ../msg/LocalPath.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotConfig.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotState.msg
+CMakeFiles/multibot_ros2_interface: ../srv/Connection.srv
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Connection_Request.msg
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Connection_Response.msg
+CMakeFiles/multibot_ros2_interface: ../srv/Disconnection.srv
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Disconnection_Request.msg
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Disconnection_Response.msg
 CMakeFiles/multibot_ros2_interface: ../srv/Path.srv
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Path_Request.msg
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Path_Response.msg

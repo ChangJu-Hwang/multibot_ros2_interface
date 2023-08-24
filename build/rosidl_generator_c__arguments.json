@@ -6,6 +6,8 @@
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:msg/LocalPath.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:msg/RobotConfig.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:msg/RobotState.idl",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:srv/Connection.idl",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:srv/Disconnection.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:srv/Path.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface:srv/RobotInfo.idl"
   ],
@@ -89,6 +91,8 @@
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/LocalPath.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/RobotConfig.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/RobotState.idl",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/Connection.idl",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/Disconnection.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/Path.idl",
     "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/RobotInfo.idl",
     "/opt/ros/foxy/share/std_msgs/msg/Bool.idl",

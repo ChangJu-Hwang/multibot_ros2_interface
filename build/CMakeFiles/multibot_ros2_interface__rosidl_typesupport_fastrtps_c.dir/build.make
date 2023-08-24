@@ -68,6 +68,8 @@ rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__ros
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/multibot_ros2_interface/msg/LocalPath.idl
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/multibot_ros2_interface/msg/RobotConfig.idl
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/multibot_ros2_interface/msg/RobotState.idl
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/multibot_ros2_interface/srv/Connection.idl
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/multibot_ros2_interface/srv/Disconnection.idl
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/multibot_ros2_interface/srv/Path.idl
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/multibot_ros2_interface/srv/RobotInfo.idl
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
@@ -149,6 +151,18 @@ rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__ro
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__type_support_c.cpp: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__type_support_c.cpp
 
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp
+
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__rosidl_typesupport_fastrtps_c.h
 
@@ -200,9 +214,35 @@ CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typ
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__type_support_c.cpp -o CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__type_support_c.cpp.s
 
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.o: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.o -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp
+
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp > CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.i
+
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp -o CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.s
+
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.o: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.o -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp
+
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp > CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.i
+
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp -o CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.s
+
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp
 
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.i: cmake_force
@@ -215,7 +255,7 @@ CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typ
 
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp.o: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp.o -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp
 
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp.i: cmake_force
@@ -231,6 +271,8 @@ multibot_ros2_interface__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.o" \
 "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_config__type_support_c.cpp.o" \
 "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__type_support_c.cpp.o" \
+"CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.o" \
+"CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.o" \
 "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o" \
 "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp.o"
 
@@ -240,6 +282,8 @@ multibot_ros2_interface__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.o
 libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_config__type_support_c.cpp.o
 libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__type_support_c.cpp.o
+libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp.o
+libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.o
 libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o
 libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__type_support_c.cpp.o
 libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make
@@ -284,7 +328,7 @@ libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-li
 libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/libfastcdr.so.1.0.13
 libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so: CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libmultibot_ros2_interface__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -302,6 +346,10 @@ CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: ro
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_config__type_support_c.cpp
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_state__type_support_c.cpp
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/connection__type_support_c.cpp
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp
 CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/robot_info__rosidl_typesupport_fastrtps_c.h

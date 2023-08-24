@@ -96,9 +96,35 @@ CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c.s"
 	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c -o CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c.s
 
+CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.o: CMakeFiles/multibot_ros2_interface__python.dir/flags.make
+CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.o: rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.o"
+	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.o   -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c
+
+CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.i"
+	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c > CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.i
+
+CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.s"
+	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c -o CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.s
+
+CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.o: CMakeFiles/multibot_ros2_interface__python.dir/flags.make
+CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.o: rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.o"
+	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.o   -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c
+
+CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.i"
+	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c > CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.i
+
+CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.s"
+	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c -o CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.s
+
 CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o: CMakeFiles/multibot_ros2_interface__python.dir/flags.make
 CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o: rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o"
 	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o   -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c
 
 CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.i: cmake_force
@@ -111,7 +137,7 @@ CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2
 
 CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c.o: CMakeFiles/multibot_ros2_interface__python.dir/flags.make
 CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c.o: rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c.o"
 	/usr/bin/gcc-8 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c.o   -c /home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c
 
 CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c.i: cmake_force
@@ -127,6 +153,8 @@ multibot_ros2_interface__python_OBJECTS = \
 "CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.o" \
 "CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.c.o" \
 "CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c.o" \
+"CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.o" \
+"CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.o" \
 "CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o" \
 "CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c.o"
 
@@ -136,6 +164,8 @@ multibot_ros2_interface__python_EXTERNAL_OBJECTS =
 rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.o
 rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.c.o
 rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_robot_state_s.c.o
+rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c.o
+rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.o
 rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o
 rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c.o
 rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: CMakeFiles/multibot_ros2_interface__python.dir/build.make
@@ -168,7 +198,7 @@ rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.s
 rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: /opt/ros/foxy/lib/librcpputils.so
 rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so: CMakeFiles/multibot_ros2_interface__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library rosidl_generator_py/multibot_ros2_interface/libmultibot_ros2_interface__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multibot_ros2_interface__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

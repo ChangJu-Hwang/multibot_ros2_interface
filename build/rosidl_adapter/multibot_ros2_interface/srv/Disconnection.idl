@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from multibot_ros2_interface/srv/Disconnection.srv
+// generated code does not contain a copyright notice
+
+
+module multibot_ros2_interface {
+  module srv {
+    struct Disconnection_Request {
+      string name;
+    };
+    struct Disconnection_Response {
+      boolean is_disconnected;
+    };
+  };
+};

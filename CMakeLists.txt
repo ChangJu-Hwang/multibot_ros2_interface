@@ -31,6 +31,8 @@ set(msg_files
 )
 
 set(srv_files
+  "srv/Connection.srv"
+  "srv/Disconnection.srv"
   "srv/Path.srv"
   "srv/RobotInfo.srv"
 )

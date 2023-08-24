@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from multibot_ros2_interface/srv/Connection.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+#include "multibot_ros2_interface/msg/RobotConfig.idl"
+
+module multibot_ros2_interface {
+  module srv {
+    struct Connection_Request {
+      multibot_ros2_interface::msg::RobotConfig config;
+
+      geometry_msgs::msg::Pose2D goal;
+    };
+    struct Connection_Response {
+      boolean is_connected;
+    };
+  };
+};
