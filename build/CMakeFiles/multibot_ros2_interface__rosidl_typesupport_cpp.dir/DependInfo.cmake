@@ -9,8 +9,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/robot_state__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/robot_state__type_support.cpp.o"
   "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/connection__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/connection__type_support.cpp.o"
   "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/disconnection__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/disconnection__type_support.cpp.o"
+  "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.cpp.o"
   "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.o"
-  "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/robot_info__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/robot_info__type_support.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -33,8 +33,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/robot_state__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp"
   "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/connection__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp"
   "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/disconnection__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp"
+  "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp"
   "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp"
-  "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/robot_info__type_support.cpp" "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp"
   )
 
 

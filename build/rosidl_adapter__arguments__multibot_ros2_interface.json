@@ -6,7 +6,7 @@
     "/home/changju/multibot_ws/src/multibot_ros2_interface:msg/RobotState.msg",
     "/home/changju/multibot_ws/src/multibot_ros2_interface:srv/Connection.srv",
     "/home/changju/multibot_ws/src/multibot_ros2_interface:srv/Disconnection.srv",
-    "/home/changju/multibot_ws/src/multibot_ros2_interface:srv/Path.srv",
-    "/home/changju/multibot_ws/src/multibot_ros2_interface:srv/RobotInfo.srv"
+    "/home/changju/multibot_ws/src/multibot_ros2_interface:srv/ModeSelection.srv",
+    "/home/changju/multibot_ws/src/multibot_ros2_interface:srv/Path.srv"
   ]
 }

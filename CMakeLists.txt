@@ -33,8 +33,8 @@ set(msg_files
 set(srv_files
   "srv/Connection.srv"
   "srv/Disconnection.srv"
+  "srv/ModeSelection.srv"
   "srv/Path.srv"
-  "srv/RobotInfo.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

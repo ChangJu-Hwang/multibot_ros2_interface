@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from multibot_ros2_interface/srv/ModeSelection.srv
+// generated code does not contain a copyright notice
+
+
+module multibot_ros2_interface {
+  module srv {
+    struct ModeSelection_Request {
+      string name;
+
+      boolean is_remote;
+    };
+    struct ModeSelection_Response {
+      boolean is_complete;
+    };
+  };
+};

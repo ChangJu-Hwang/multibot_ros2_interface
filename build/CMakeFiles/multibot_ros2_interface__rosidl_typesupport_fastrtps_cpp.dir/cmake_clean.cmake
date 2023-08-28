@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o"
   "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/connection__type_support.cpp.o"
   "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/disconnection__type_support.cpp.o"
+  "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.cpp.o"
   "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.o"
-  "CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/robot_info__type_support.cpp.o"
   "libmultibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.pdb"
   "libmultibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp"
@@ -17,11 +17,11 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/connection__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/connection__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/disconnection__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp"
-  "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/robot_info__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/disconnection__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/mode_selection__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/path__rosidl_typesupport_fastrtps_cpp.hpp"
-  "rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/robot_info__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -2411,10 +2411,10 @@
 			"path" : "srv/Disconnection.srv"
 		},
 		{
-			"path" : "srv/Path.srv"
+			"path" : "srv/ModeSelection.srv"
 		},
 		{
-			"path" : "srv/RobotInfo.srv"
+			"path" : "srv/Path.srv"
 		},
 		{
 			"isCMake" : true,

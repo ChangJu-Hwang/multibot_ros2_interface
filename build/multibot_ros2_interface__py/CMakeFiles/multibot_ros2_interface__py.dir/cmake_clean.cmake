@@ -14,10 +14,10 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/multibot_ros2_interface/srv/_connection_s.c"
   "../rosidl_generator_py/multibot_ros2_interface/srv/_disconnection.py"
   "../rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c"
+  "../rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection.py"
+  "../rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.c"
   "../rosidl_generator_py/multibot_ros2_interface/srv/_path.py"
   "../rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c"
-  "../rosidl_generator_py/multibot_ros2_interface/srv/_robot_info.py"
-  "../rosidl_generator_py/multibot_ros2_interface/srv/_robot_info_s.c"
   "CMakeFiles/multibot_ros2_interface__py"
 )
 

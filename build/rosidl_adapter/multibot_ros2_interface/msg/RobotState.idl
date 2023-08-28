@@ -10,6 +10,10 @@ module multibot_ros2_interface {
       string name;
 
       geometry_msgs::msg::Pose2D pose;
+
+      float lin_vel;
+
+      float ang_vel;
     };
   };
 };

@@ -306,6 +306,21 @@
 		},
 		{
 			"backtrace" : 2,
+			"path" : "srv/ModeSelection.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/ModeSelection_Request.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/ModeSelection_Response.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
 			"path" : "srv/Path.srv",
 			"sourceGroupIndex" : 0
 		},
@@ -317,21 +332,6 @@
 		{
 			"backtrace" : 2,
 			"path" : "build/rosidl_cmake/srv/Path_Response.msg",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "srv/RobotInfo.srv",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "build/rosidl_cmake/srv/RobotInfo_Request.msg",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 2,
-			"path" : "build/rosidl_cmake/srv/RobotInfo_Response.msg",
 			"sourceGroupIndex" : 0
 		},
 		{

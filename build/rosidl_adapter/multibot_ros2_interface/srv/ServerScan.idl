@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from multibot_ros2_interface/srv/ServerScan.srv
+// generated code does not contain a copyright notice
+
+
+module multibot_ros2_interface {
+  module srv {
+    struct ServerScan_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ServerScan_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

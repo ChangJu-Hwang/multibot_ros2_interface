@@ -62,12 +62,12 @@ CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Connection_Response.msg
 CMakeFiles/multibot_ros2_interface: ../srv/Disconnection.srv
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Disconnection_Request.msg
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Disconnection_Response.msg
+CMakeFiles/multibot_ros2_interface: ../srv/ModeSelection.srv
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/ModeSelection_Request.msg
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/ModeSelection_Response.msg
 CMakeFiles/multibot_ros2_interface: ../srv/Path.srv
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Path_Request.msg
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Path_Response.msg
-CMakeFiles/multibot_ros2_interface: ../srv/RobotInfo.srv
-CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/RobotInfo_Request.msg
-CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/RobotInfo_Response.msg
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
