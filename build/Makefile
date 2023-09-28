@@ -375,32 +375,32 @@ multibot_ros2_interface__py/fast:
 	$(MAKE) -f multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py.dir/build.make multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py.dir/build
 .PHONY : multibot_ros2_interface__py/fast
 
-rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.o: rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.o
+rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.o: rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.o
 
-.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.o
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.o
 
 # target to build an object file
-rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.o
-.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.o
+rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.o
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.o
 
-rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.i: rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.i
+rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.i: rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.i
 
-.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.i
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.i
 
 # target to preprocess a source file
-rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.i
-.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.i
+rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.i
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.i
 
-rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.s: rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.s
+rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.s: rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.s
 
-.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.s
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.s
 
 # target to generate assembly for a file
-rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.s
-.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.c.s
+rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.s
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.s
 
 rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_config__functions.o: rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_config__functions.c.o
 
@@ -537,32 +537,32 @@ rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.c.s
 .PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.c.s
 
-rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.o: rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o
+rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.o: rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.o
 
-.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.o
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.o
 
 # target to build an object file
-rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o
-.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.o
+rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.o
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.o
 
-rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.i: rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.i
+rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.i: rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.i
 
-.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.i
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.i
 
 # target to preprocess a source file
-rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.i
-.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.i
+rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.i
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.i
 
-rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.s: rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.s
+rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.s: rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.s
 
-.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.s
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.s
 
 # target to generate assembly for a file
-rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.s
-.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.c.s
+rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.s
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.c.s
 
 rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_c.c.o
 
@@ -645,32 +645,32 @@ rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.c.s
 .PHONY : rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.c.s
 
-rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.o: rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.o
+rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.o: rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.o
 
-.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.o
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.o
 
 # target to build an object file
-rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.o
-.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.o
+rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.o
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.o
 
-rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.i: rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.i
+rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.i: rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.i
 
-.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.i
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.i
 
 # target to preprocess a source file
-rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.i
-.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.i
+rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.i
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.i
 
-rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.s: rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.s
+rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.s: rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.s
 
-.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.s
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.s
 
 # target to generate assembly for a file
-rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.s
-.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.c.s
+rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.s
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.s
 
 rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.o: rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.c.o
 
@@ -807,59 +807,59 @@ rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.c.s:
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.c.s
 .PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.c.s
 
-rosidl_generator_py/multibot_ros2_interface/srv/_path_s.o: rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o
+rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.o: rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.o
 
-.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_path_s.o
-
-# target to build an object file
-rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o
-.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.o
-
-rosidl_generator_py/multibot_ros2_interface/srv/_path_s.i: rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.i
-
-.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_path_s.i
-
-# target to preprocess a source file
-rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.i
-.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.i
-
-rosidl_generator_py/multibot_ros2_interface/srv/_path_s.s: rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.s
-
-.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_path_s.s
-
-# target to generate assembly for a file
-rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.s
-.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_path_s.c.s
-
-rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.o: rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.o
-
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.o
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.o
 
 # target to build an object file
-rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.o
+rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.o
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.o
 
-rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.i: rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.i
+rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.i: rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.i
 
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.i
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.i
 
 # target to preprocess a source file
-rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.i
+rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.i
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.i
 
-rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.s: rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.s
+rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.s: rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.s
 
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.s
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.s
 
 # target to generate assembly for a file
-rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.cpp.s
+rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.s
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.s
+
+rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.o: rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.o
+
+rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.i: rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.i
+
+rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.s: rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.s
 
 rosidl_typesupport_c/multibot_ros2_interface/msg/robot_config__type_support.o: rosidl_typesupport_c/multibot_ros2_interface/msg/robot_config__type_support.cpp.o
 
@@ -996,59 +996,59 @@ rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.cp
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.cpp.s
 
-rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.o: rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.o
+rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.o: rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.o
 
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.o
-
-# target to build an object file
-rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.o
-
-rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.i: rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.i
-
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.i
-
-rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.s: rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.s
-
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.cpp.s
-
-rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.o: rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.o
-
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.o
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.o
 
 # target to build an object file
-rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.o
+rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.o
 
-rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.i: rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.i
+rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.i: rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.i
 
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.i
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.i
 
 # target to preprocess a source file
-rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.i
+rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.i
 
-rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.s: rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.s
+rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.s: rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.s
 
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.s
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.s
 
 # target to generate assembly for a file
-rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.cpp.s
+rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.s
+
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.o: rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.o
+
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.i: rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.i
+
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.s: rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.s
 
 rosidl_typesupport_cpp/multibot_ros2_interface/msg/robot_config__type_support.o: rosidl_typesupport_cpp/multibot_ros2_interface/msg/robot_config__type_support.cpp.o
 
@@ -1185,59 +1185,59 @@ rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.cpp.s
 
-rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.o: rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.o
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.o: rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.o
 
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.o
-
-# target to build an object file
-rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.o
-
-rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.i: rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.i
-
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.i
-
-rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.s: rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.s
-
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.cpp.s
-
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.o
-
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.o
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.o
 
 # target to build an object file
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.o
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.o
 
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.i: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.i
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.i: rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.i
 
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.i
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.i
 
 # target to preprocess a source file
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.i
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.i
 
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.s: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.s
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.s: rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.s
 
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.s
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.s
 
 # target to generate assembly for a file
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.cpp.s
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.i: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.s: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_config__type_support_c.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_config__type_support_c.cpp.o
 
@@ -1374,59 +1374,59 @@ rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection_
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.cpp.s
 
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.o
 
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.o
-
-# target to build an object file
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.o
-
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.i: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.i
-
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.i
-
-# target to preprocess a source file
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.i
-
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.s: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.s
-
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.s
-
-# target to generate assembly for a file
-rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.cpp.s
-
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.o: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.o
-
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.o
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.o
 
 # target to build an object file
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.o
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.o
 
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.i: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.i
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.i: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.i
 
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.i
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.i
 
 # target to preprocess a source file
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.i
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.i
 
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.s: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.s
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.s: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.s
 
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.s
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.s
 
 # target to generate assembly for a file
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.cpp.s
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.o: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.i: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.s: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_config__type_support.o: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_config__type_support.cpp.o
 
@@ -1563,59 +1563,59 @@ rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.cpp.s
 
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.o: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.o
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.o: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.o
 
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.o
-
-# target to build an object file
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.o
-
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.i: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.i
-
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.i
-
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.s: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.s
-
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.cpp.s
-
-rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.o: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.o
-
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.o
 
 # target to build an object file
-rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.o
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.o
 
-rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.i: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.i
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.i: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.i
 
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.i
 
 # target to preprocess a source file
-rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.i
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.i
 
-rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.s: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.s
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.s: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.s
 
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.s
 
 # target to generate assembly for a file
-rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.c.s
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.s
+
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.o: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.o
+
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.i: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.i
+
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.s: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.s
 
 rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/robot_config__type_support.o: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/robot_config__type_support.c.o
 
@@ -1752,59 +1752,59 @@ rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selec
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.c.s
 
-rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.o: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.o
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.o: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.o
 
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.o
-
-# target to build an object file
-rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.o
-
-rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.i: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.i
-
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.i
-
-rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.s: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.s
-
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.c.s
-
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.o: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.o
-
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.o
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.o
 
 # target to build an object file
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.o
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.o
 
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.i: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.i
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.i: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.i
 
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.i
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.i
 
 # target to preprocess a source file
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.i
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.i
 
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.s: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.s
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.s: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.s
 
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.s
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.s
 
 # target to generate assembly for a file
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.cpp.s
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.s
+
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.o: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.i: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.s: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_config__type_support.o: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_config__type_support.cpp.o
 
@@ -1941,32 +1941,32 @@ rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_sel
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.cpp.s
 
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.o: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.o
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.o: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.o
 
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.o
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.o
 
 # target to build an object file
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.o:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.o
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.o
 
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.i: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.i
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.i: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.i
 
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.i
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.i
 
 # target to preprocess a source file
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.i:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.i
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.i
 
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.s: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.s
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.s: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.s
 
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.s
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.s
 
 # target to generate assembly for a file
-rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.s:
-	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.cpp.s
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.cpp.s
 
 # Help Target
 help:
@@ -1997,9 +1997,9 @@ help:
 	@echo "... multibot_ros2_interface__rosidl_typesupport_c"
 	@echo "... multibot_ros2_interface__cpp"
 	@echo "... multibot_ros2_interface__py"
-	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.o"
-	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.i"
-	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/local_path__functions.s"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.o"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.i"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.s"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_config__functions.o"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_config__functions.i"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/robot_config__functions.s"
@@ -2015,9 +2015,9 @@ help:
 	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.o"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.i"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.s"
-	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.o"
-	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.i"
-	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/path__functions.s"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.o"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.i"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/traj__functions.s"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_c.s"
@@ -2027,9 +2027,9 @@ help:
 	@echo "... rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.o"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.i"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.s"
-	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.o"
-	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.i"
-	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_local_path_s.s"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.o"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.i"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.s"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.o"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.i"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_robot_config_s.s"
@@ -2045,12 +2045,12 @@ help:
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.o"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.i"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.s"
-	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_path_s.o"
-	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_path_s.i"
-	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_path_s.s"
-	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.o"
-	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.i"
-	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/local_path__type_support.s"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.o"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.i"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.s"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.o"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.i"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.s"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/robot_config__type_support.o"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/robot_config__type_support.i"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/robot_config__type_support.s"
@@ -2066,12 +2066,12 @@ help:
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.s"
-	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.o"
-	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.i"
-	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/path__type_support.s"
-	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.o"
-	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.i"
-	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_path__type_support.s"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.o"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.i"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.s"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.o"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.i"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.s"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/robot_config__type_support.o"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/robot_config__type_support.i"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/robot_config__type_support.s"
@@ -2087,12 +2087,12 @@ help:
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.s"
-	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.o"
-	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.i"
-	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/path__type_support.s"
-	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.o"
-	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.i"
-	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_path__type_support_c.s"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.o"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.i"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_config__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_config__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/robot_config__type_support_c.s"
@@ -2108,12 +2108,12 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.s"
-	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.o"
-	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.i"
-	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/path__type_support_c.s"
-	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.o"
-	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.i"
-	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_path__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_config__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_config__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/robot_config__type_support.s"
@@ -2129,12 +2129,12 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.s"
-	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.o"
-	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.i"
-	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/path__type_support.s"
-	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.o"
-	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.i"
-	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_path__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/robot_config__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/robot_config__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/robot_config__type_support.s"
@@ -2150,12 +2150,12 @@ help:
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.s"
-	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.o"
-	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.i"
-	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/path__type_support.s"
-	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.o"
-	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.i"
-	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_path__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_config__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_config__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/robot_config__type_support.s"
@@ -2171,9 +2171,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.s"
-	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.o"
-	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.i"
-	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/path__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/traj__type_support.s"
 .PHONY : help
 
 

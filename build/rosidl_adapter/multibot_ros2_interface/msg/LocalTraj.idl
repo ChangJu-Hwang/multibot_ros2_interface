@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multibot_ros2_interface/msg/LocalTraj.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose2D.idl"
+
+module multibot_ros2_interface {
+  module msg {
+    struct LocalTraj {
+      geometry_msgs::msg::Pose2D start;
+
+      geometry_msgs::msg::Pose2D goal;
+
+      double departure_time;
+
+      double arrival_time;
+    };
+  };
+};

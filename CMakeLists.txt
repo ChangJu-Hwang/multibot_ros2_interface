@@ -25,7 +25,7 @@ find_package(geometry_msgs REQUIRED)
 # Declare ROS messages, services and actions
 ################################################################################
 set(msg_files
-  "msg/LocalPath.msg"
+  "msg/LocalTraj.msg"
   "msg/RobotConfig.msg"
   "msg/RobotState.msg"
 )
@@ -34,7 +34,7 @@ set(srv_files
   "srv/Connection.srv"
   "srv/Disconnection.srv"
   "srv/ModeSelection.srv"
-  "srv/Path.srv"
+  "srv/Traj.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

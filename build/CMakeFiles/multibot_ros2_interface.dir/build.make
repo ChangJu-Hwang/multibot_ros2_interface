@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/changju/multibot_ws/src/multibot_ros2_interface/build
 # Include the progress variables for this target.
 include CMakeFiles/multibot_ros2_interface.dir/progress.make
 
-CMakeFiles/multibot_ros2_interface: ../msg/LocalPath.msg
+CMakeFiles/multibot_ros2_interface: ../msg/LocalTraj.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotConfig.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotState.msg
 CMakeFiles/multibot_ros2_interface: ../srv/Connection.srv
@@ -65,9 +65,9 @@ CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Disconnection_Response.msg
 CMakeFiles/multibot_ros2_interface: ../srv/ModeSelection.srv
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/ModeSelection_Request.msg
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/ModeSelection_Response.msg
-CMakeFiles/multibot_ros2_interface: ../srv/Path.srv
-CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Path_Request.msg
-CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Path_Response.msg
+CMakeFiles/multibot_ros2_interface: ../srv/Traj.srv
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Traj_Request.msg
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Traj_Response.msg
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
 CMakeFiles/multibot_ros2_interface: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl

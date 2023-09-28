@@ -1,5 +1,5 @@
-msg/LocalPath.idl
-msg/LocalPath.msg
+msg/LocalTraj.idl
+msg/LocalTraj.msg
 msg/RobotConfig.idl
 msg/RobotConfig.msg
 msg/RobotState.idl
@@ -16,7 +16,7 @@ srv/ModeSelection.idl
 srv/ModeSelection.srv
 srv/ModeSelection_Request.msg
 srv/ModeSelection_Response.msg
-srv/Path.idl
-srv/Path.srv
-srv/Path_Request.msg
-srv/Path_Response.msg
+srv/Traj.idl
+srv/Traj.srv
+srv/Traj_Request.msg
+srv/Traj_Response.msg

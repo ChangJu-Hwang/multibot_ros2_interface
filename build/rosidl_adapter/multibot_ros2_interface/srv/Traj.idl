@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from multibot_ros2_interface/srv/Traj.srv
+// generated code does not contain a copyright notice
+
+#include "multibot_ros2_interface/msg/LocalTraj.idl"
+
+module multibot_ros2_interface {
+  module srv {
+    struct Traj_Request {
+      sequence<multibot_ros2_interface::msg::LocalTraj> traj;
+
+      double start_time;
+    };
+    struct Traj_Response {
+      boolean receive_status;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+LocalTraj[] traj
+float64 start_time
+---
+bool receive_status

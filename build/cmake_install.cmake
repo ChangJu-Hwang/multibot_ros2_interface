@@ -355,7 +355,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/msg" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/LocalPath.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/msg" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/LocalTraj.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -379,11 +379,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/Path.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/Traj.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/msg" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/msg/LocalPath.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/msg" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/msg/LocalTraj.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -431,15 +431,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/srv/Path.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/srv/Traj.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_cmake/srv/Path_Request.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_cmake/srv/Traj_Request.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_cmake/srv/Path_Response.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_cmake/srv/Traj_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
