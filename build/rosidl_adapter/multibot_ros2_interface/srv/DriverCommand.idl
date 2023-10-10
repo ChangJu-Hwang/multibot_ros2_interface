@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from multibot_ros2_interface/srv/DriverCommand.srv
+// generated code does not contain a copyright notice
+
+
+module multibot_ros2_interface {
+  module srv {
+    module DriverCommand_Request_Constants {
+      const uint8 COMMAND_INITIALIZE = 0;
+      const uint8 COMMAND_ENABLE_MOTOR = 1;
+      const uint8 COMMAND_STOP_MOTOR = 3;
+      const uint8 COMMAND_RESET_ENCODER = 13;
+    };
+    struct DriverCommand_Request {
+      uint8 command;
+
+      uint8 val;
+    };
+    module DriverCommand_Response_Constants {
+      const uint8 RESULT_SUCCESS = 0;
+      const uint8 RESULT_FAIL = 1;
+    };
+    struct DriverCommand_Response {
+      uint8 result;
+    };
+  };
+};

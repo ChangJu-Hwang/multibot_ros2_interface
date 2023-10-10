@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multibot_ros2_interface/msg/DriverStatusStamped.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module multibot_ros2_interface {
+  module msg {
+    struct DriverStatusStamped {
+      std_msgs::msg::Header header;
+
+      uint8 motor_enabled;
+
+      uint8 motor_stopped;
+
+      uint8 estop_pressed;
+    };
+  };
+};

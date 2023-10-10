@@ -375,6 +375,33 @@ multibot_ros2_interface__py/fast:
 	$(MAKE) -f multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py.dir/build.make multibot_ros2_interface__py/CMakeFiles/multibot_ros2_interface__py.dir/build
 .PHONY : multibot_ros2_interface__py/fast
 
+rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.o: rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.o
+
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.o
+
+# target to build an object file
+rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.o
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.o
+
+rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.i: rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.i
+
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.i
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.i
+
+rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.s: rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.s
+
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.s
+.PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c.s
+
 rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.o: rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c.o
 
 .PHONY : rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.o
@@ -509,6 +536,33 @@ rosidl_generator_c/multibot_ros2_interface/srv/detail/disconnection__functions.s
 rosidl_generator_c/multibot_ros2_interface/srv/detail/disconnection__functions.c.s:
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/disconnection__functions.c.s
 .PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/disconnection__functions.c.s
+
+rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.o: rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.o
+
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.o
+
+# target to build an object file
+rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.o
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.o
+
+rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.i: rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.i
+
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.i
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.i
+
+rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.s: rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.s
+
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_generator_c.dir/rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.s
+.PHONY : rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c.s
 
 rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.o: rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.c.o
 
@@ -645,6 +699,33 @@ rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.c.s
 .PHONY : rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.c.s
 
+rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.o: rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.o
+
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.o
+
+# target to build an object file
+rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.o
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.o
+
+rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.i: rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.i
+
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.i
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.i
+
+rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.s: rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.s
+
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.s
+.PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.c.s
+
 rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.o: rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.c.o
 
 .PHONY : rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.o
@@ -780,6 +861,33 @@ rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.s:
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.s
 .PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.c.s
 
+rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.o: rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.o
+
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.o
+
+# target to build an object file
+rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.o
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.o
+
+rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.i: rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.i
+
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.i
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.i
+
+rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.s: rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.s
+
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.s
+.PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.c.s
+
 rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.o: rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.c.o
 
 .PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.o
@@ -833,6 +941,33 @@ rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.s: rosidl_generator_py/m
 rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.s:
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__python.dir/build.make CMakeFiles/multibot_ros2_interface__python.dir/rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.s
 .PHONY : rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.c.s
+
+rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.o: rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.o
+
+rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.i: rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.i
+
+rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.s: rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.s
 
 rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.o: rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.cpp.o
 
@@ -969,6 +1104,33 @@ rosidl_typesupport_c/multibot_ros2_interface/srv/disconnection__type_support.cpp
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/disconnection__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/disconnection__type_support.cpp.s
 
+rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.o: rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.o
+
+rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.i: rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.i
+
+rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.s: rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.cpp.s
+
 rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.o: rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.o
@@ -1022,6 +1184,33 @@ rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.s: rosidl_ty
 rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.cpp.s
+
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.o: rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.o
+
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.i: rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.i
+
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.s: rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.s
 
 rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.o: rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.o
 
@@ -1158,6 +1347,33 @@ rosidl_typesupport_cpp/multibot_ros2_interface/srv/disconnection__type_support.c
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/disconnection__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/disconnection__type_support.cpp.s
 
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.o: rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.o
+
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.i: rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.i
+
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.s: rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp.s
+
 rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.o: rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.o
@@ -1211,6 +1427,33 @@ rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.s: rosidl_
 rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.i: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.s: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.cpp.o
 
@@ -1347,6 +1590,33 @@ rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.i: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.s: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.o: rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.o
@@ -1400,6 +1670,33 @@ rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_supp
 rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.s:
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.o: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.i: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.s: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.o: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.cpp.o
 
@@ -1536,6 +1833,33 @@ rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/disconnection__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/disconnection__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.o: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.i: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.s: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.o: rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.o
@@ -1589,6 +1913,33 @@ rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/
 rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.cpp.s
+
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.o: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.o
+
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.i: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.i
+
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.s: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.c.s
 
 rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.o: rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.c.o
 
@@ -1725,6 +2076,33 @@ rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/disconnect
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/disconnection__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/disconnection__type_support.c.s
 
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.o: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.o
+
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.i: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.i
+
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.s: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.c.s
+
 rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.o: rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.c.o
 
 .PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.o
@@ -1778,6 +2156,33 @@ rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type
 rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.s:
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.c.s
+
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.o: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.i: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.s: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.o: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.cpp.o
 
@@ -1914,6 +2319,33 @@ rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/disconne
 	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/disconnection__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/disconnection__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.o: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.i: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.s: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/multibot_ros2_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.o: rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.o
@@ -1997,6 +2429,9 @@ help:
 	@echo "... multibot_ros2_interface__rosidl_typesupport_c"
 	@echo "... multibot_ros2_interface__cpp"
 	@echo "... multibot_ros2_interface__py"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.o"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.i"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.s"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.o"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.i"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.s"
@@ -2012,6 +2447,9 @@ help:
 	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/disconnection__functions.o"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/disconnection__functions.i"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/disconnection__functions.s"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.o"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.i"
+	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.s"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.o"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.i"
 	@echo "... rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.s"
@@ -2027,6 +2465,9 @@ help:
 	@echo "... rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.o"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.i"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/_multibot_ros2_interface_s.ep.rosidl_typesupport_introspection_c.s"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.o"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.i"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_driver_status_stamped_s.s"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.o"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.i"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/msg/_local_traj_s.s"
@@ -2042,12 +2483,18 @@ help:
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.o"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.i"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_disconnection_s.s"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.o"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.i"
+	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_driver_command_s.s"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.o"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.i"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_mode_selection_s.s"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.o"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.i"
 	@echo "... rosidl_generator_py/multibot_ros2_interface/srv/_traj_s.s"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.o"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.i"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/driver_status_stamped__type_support.s"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.o"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.i"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/msg/local_traj__type_support.s"
@@ -2063,12 +2510,18 @@ help:
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/disconnection__type_support.o"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/disconnection__type_support.i"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/disconnection__type_support.s"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.o"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.i"
+	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/driver_command__type_support.s"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/mode_selection__type_support.s"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.o"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.i"
 	@echo "... rosidl_typesupport_c/multibot_ros2_interface/srv/traj__type_support.s"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.o"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.i"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.s"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.o"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.i"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.s"
@@ -2084,12 +2537,18 @@ help:
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/disconnection__type_support.o"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/disconnection__type_support.i"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/disconnection__type_support.s"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.o"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.i"
+	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.s"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.s"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.o"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.i"
 	@echo "... rosidl_typesupport_cpp/multibot_ros2_interface/srv/traj__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/msg/detail/local_traj__type_support_c.s"
@@ -2105,12 +2564,18 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/disconnection__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/driver_command__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/mode_selection__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/multibot_ros2_interface/srv/detail/traj__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/driver_status_stamped__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/msg/detail/dds_fastrtps/local_traj__type_support.s"
@@ -2126,12 +2591,18 @@ help:
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/disconnection__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/disconnection__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/disconnection__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/driver_command__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/mode_selection__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/multibot_ros2_interface/srv/detail/dds_fastrtps/traj__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/msg/detail/local_traj__type_support.s"
@@ -2147,12 +2618,18 @@ help:
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/disconnection__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/disconnection__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/disconnection__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/driver_command__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/mode_selection__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/multibot_ros2_interface/srv/detail/traj__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/msg/detail/local_traj__type_support.s"
@@ -2168,6 +2645,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/disconnection__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/disconnection__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/disconnection__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/driver_command__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/multibot_ros2_interface/srv/detail/mode_selection__type_support.s"

@@ -355,6 +355,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/msg" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/DriverStatusStamped.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/msg" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/msg/LocalTraj.idl")
 endif()
 
@@ -375,11 +379,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/DriverCommand.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/ModeSelection.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_adapter/multibot_ros2_interface/srv/Traj.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/msg" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/msg/DriverStatusStamped.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -416,6 +428,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_cmake/srv/Disconnection_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/srv/DriverCommand.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_cmake/srv/DriverCommand_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multibot_ros2_interface/srv" TYPE FILE FILES "/home/changju/multibot_ws/src/multibot_ros2_interface/build/rosidl_cmake/srv/DriverCommand_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

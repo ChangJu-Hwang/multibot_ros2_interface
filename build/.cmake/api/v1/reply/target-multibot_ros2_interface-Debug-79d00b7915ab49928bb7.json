@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 40,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -240,14 +240,18 @@
 				12,
 				13,
 				14,
-				15
+				15,
+				16,
+				17,
+				18,
+				19
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				16
+				20
 			]
 		}
 	],
@@ -257,6 +261,11 @@
 			"backtrace" : 2,
 			"isGenerated" : true,
 			"path" : "build/CMakeFiles/multibot_ros2_interface",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "msg/DriverStatusStamped.msg",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -302,6 +311,21 @@
 		{
 			"backtrace" : 2,
 			"path" : "build/rosidl_cmake/srv/Disconnection_Response.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "srv/DriverCommand.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/DriverCommand_Request.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "build/rosidl_cmake/srv/DriverCommand_Response.msg",
 			"sourceGroupIndex" : 0
 		},
 		{

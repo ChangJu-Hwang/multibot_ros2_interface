@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/changju/multibot_ws/src/multibot_ros2_interface/build
 # Include the progress variables for this target.
 include CMakeFiles/multibot_ros2_interface.dir/progress.make
 
+CMakeFiles/multibot_ros2_interface: ../msg/DriverStatusStamped.msg
 CMakeFiles/multibot_ros2_interface: ../msg/LocalTraj.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotConfig.msg
 CMakeFiles/multibot_ros2_interface: ../msg/RobotState.msg
@@ -62,6 +63,9 @@ CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Connection_Response.msg
 CMakeFiles/multibot_ros2_interface: ../srv/Disconnection.srv
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Disconnection_Request.msg
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/Disconnection_Response.msg
+CMakeFiles/multibot_ros2_interface: ../srv/DriverCommand.srv
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/DriverCommand_Request.msg
+CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/DriverCommand_Response.msg
 CMakeFiles/multibot_ros2_interface: ../srv/ModeSelection.srv
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/ModeSelection_Request.msg
 CMakeFiles/multibot_ros2_interface: rosidl_cmake/srv/ModeSelection_Response.msg

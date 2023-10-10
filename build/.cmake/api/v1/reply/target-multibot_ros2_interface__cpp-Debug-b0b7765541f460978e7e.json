@@ -24,7 +24,7 @@
 			{
 				"command" : 3,
 				"file" : 3,
-				"line" : 40,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -93,7 +93,7 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/rosidl_generator_cpp/multibot_ros2_interface/msg/local_traj.hpp.rule",
+			"path" : "build/rosidl_generator_cpp/multibot_ros2_interface/msg/driver_status_stamped.hpp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

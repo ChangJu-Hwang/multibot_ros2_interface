@@ -2396,6 +2396,9 @@
 			"path" : "/opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake"
 		},
 		{
+			"path" : "msg/DriverStatusStamped.msg"
+		},
+		{
 			"path" : "msg/LocalTraj.msg"
 		},
 		{
@@ -2409,6 +2412,9 @@
 		},
 		{
 			"path" : "srv/Disconnection.srv"
+		},
+		{
+			"path" : "srv/DriverCommand.srv"
 		},
 		{
 			"path" : "srv/ModeSelection.srv"
