@@ -41,7 +41,7 @@
 			{
 				"command" : 3,
 				"file" : 3,
-				"line" : 40,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -221,13 +221,15 @@
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				28,
-				29,
-				30,
-				31,
-				32,
-				33,
-				34
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44
 			]
 		}
 	],
@@ -414,32 +416,66 @@
 				24,
 				25,
 				26,
-				27
-			]
-		},
-		{
-			"name" : "Source Files",
-			"sourceIndexes" : 
-			[
+				27,
 				28,
 				29,
 				30,
 				31,
 				32,
 				33,
-				34
+				34,
+				35
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				35
+				45
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/msg/driver_status_stamped.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__type_support.h",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
@@ -563,6 +599,30 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/srv/driver_command.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
 			"path" : "build/rosidl_generator_c/multibot_ros2_interface/srv/mode_selection.h",
 			"sourceGroupIndex" : 0
 		},
@@ -612,6 +672,13 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/msg/detail/driver_status_stamped__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
 			"path" : "build/rosidl_generator_c/multibot_ros2_interface/msg/detail/local_traj__functions.c",
 			"sourceGroupIndex" : 1
 		},
@@ -647,6 +714,13 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/srv/detail/driver_command__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
 			"path" : "build/rosidl_generator_c/multibot_ros2_interface/srv/detail/mode_selection__functions.c",
 			"sourceGroupIndex" : 1
 		},
@@ -660,7 +734,7 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/rosidl_generator_c/multibot_ros2_interface/msg/local_traj.h.rule",
+			"path" : "build/rosidl_generator_c/multibot_ros2_interface/msg/driver_status_stamped.h.rule",
 			"sourceGroupIndex" : 2
 		}
 	],

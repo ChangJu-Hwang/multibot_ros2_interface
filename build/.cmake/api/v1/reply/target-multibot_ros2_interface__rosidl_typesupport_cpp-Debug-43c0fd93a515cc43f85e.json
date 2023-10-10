@@ -42,7 +42,7 @@
 			{
 				"command" : 3,
 				"file" : 3,
-				"line" : 40,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
@@ -234,7 +234,9 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -407,19 +409,28 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7,
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				7
+				9
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
@@ -459,6 +470,13 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
+			"path" : "build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/driver_command__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
 			"path" : "build/rosidl_typesupport_cpp/multibot_ros2_interface/srv/mode_selection__type_support.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -472,7 +490,7 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/local_traj__type_support.cpp.rule",
+			"path" : "build/rosidl_typesupport_cpp/multibot_ros2_interface/msg/driver_status_stamped__type_support.cpp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

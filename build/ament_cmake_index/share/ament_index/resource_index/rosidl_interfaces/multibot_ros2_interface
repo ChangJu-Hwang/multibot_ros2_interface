@@ -1,3 +1,5 @@
+msg/DriverStatusStamped.idl
+msg/DriverStatusStamped.msg
 msg/LocalTraj.idl
 msg/LocalTraj.msg
 msg/RobotConfig.idl
@@ -12,6 +14,10 @@ srv/Disconnection.idl
 srv/Disconnection.srv
 srv/Disconnection_Request.msg
 srv/Disconnection_Response.msg
+srv/DriverCommand.idl
+srv/DriverCommand.srv
+srv/DriverCommand_Request.msg
+srv/DriverCommand_Response.msg
 srv/ModeSelection.idl
 srv/ModeSelection.srv
 srv/ModeSelection_Request.msg
